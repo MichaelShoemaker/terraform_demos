@@ -22,3 +22,8 @@ variable "bigquery_dataset" {
   description = "BigQuery Dataset"
   default     = "terra_test"
 }
+
+variable "storage_class"{
+  description = "Storage Class"
+  default = "STANDARD"
+}
